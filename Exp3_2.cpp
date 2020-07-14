@@ -1,10 +1,9 @@
-
-
 // Exemple de passage de valeurs par référence. 
-// Déclaration de la fonction#include <iostream>
-using namespace std;int somme (int &);
+#include <iostream>
+using namespace std;
+int somme (int &);
 // Fonction principaleint 
-main ()
+int main ()
 {
 int un = 4, deux= 3;
 cout<< "La valeur de un avant l’appel de la fonction est de :un= "<<un<<endl;
